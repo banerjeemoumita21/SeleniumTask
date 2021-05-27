@@ -1,0 +1,13 @@
+@RunWith(Cucumber.class)
+
+@CucumberOptions(
+
+features="searchFeature"
+
+, glue={"searchsteps"}
+
+}
+
+
+
+public class TestRunner{}
